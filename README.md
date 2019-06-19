@@ -30,7 +30,7 @@ Connect the both devices as shown in the picture.
    
 Now we can happily enroll our fingerprints in the fingerprint sensor.
 
-#Moving fingerprints to database
+# Moving fingerprints to database
 Fingerprint sensors will have a limited memory space to store the fingerprints ie, nearly 1000 images. So, it is better to store the fingerprints in external data bases which can also spread the applications of fingerprints.
 This can be achieved through 3 steps.
 1. Connecting Arduino board to pc/laptop.                                                                                                  This can be done using a USB cable.
