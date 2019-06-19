@@ -12,6 +12,7 @@ Sensors or any other application oriented electronic devices can be operated onl
 Reading fingerprints can be achieved through below 2 steps:-
 1. Connecting R307 fingerprint sensor to ARDUIONO board,
    
+![Picture1](https://user-images.githubusercontent.com/29407642/59751948-10c03c80-929f-11e9-91a2-8264063ad579.jpg)
 
 
 2. Uploading corresponding programme code in to arduino board. 
