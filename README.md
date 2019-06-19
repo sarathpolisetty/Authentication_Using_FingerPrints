@@ -1,5 +1,5 @@
 # Authentication_Using_FingerPrints
-Reading Finger prints (eg:-using Adafruit_R30x_Fingerprint module) and storing them in the database 
+Reading Finger prints and storing them in the database 
 is the major part that have to be concentrated when working on any projects regarding fingerprints.
 
 
