@@ -26,8 +26,10 @@ ie. (i) TD (pin 3 of P1) connects with RXD (receiving pin of Arduino)
 
 
 2. Uploading corresponding programme code in to arduino board. 
+   Upload the code at below link into the arduino board from arduino IDE.
+   https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library/blob/master/examples/enroll/enroll.ino
    
-
+Now we can happily enroll our fingerprints in the sensor.
 
 
  
