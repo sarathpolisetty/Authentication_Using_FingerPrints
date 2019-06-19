@@ -20,16 +20,26 @@ Reading fingerprints can be achieved through below 2 steps:-
    
 ![Picture2](https://user-images.githubusercontent.com/29407642/59752399-ce4b2f80-929f-11e9-9f5d-92791d551938.jpg)
 
-Connect the both devices as shown in the picture.
-ie. (i) TD (pin 3 of P1) connects with RXD (receiving pin of Arduino)
-    (ii) RD (pin 4 of P1) connects with TXD (transferring pin of Arduino).
-
-
-2. Uploading corresponding programme code in to arduino board. 
-   Upload the code at below link into the arduino board from arduino IDE.
+Connect the both devices as shown in the picture.                                                                                         
+   ie. (i) TD (pin 3 of P1) connects with RXD (receiving pin of Arduino)                                                                   
+       (ii) RD (pin 4 of P1) connects with TXD (transferring pin of Arduino).
+       
+2. Uploading corresponding Arduino programme in to arduino board.                                                                           
+   Upload the code at below link into the arduino board from arduino IDE.(We can download Arduino from https://www.arduino.cc/en/Main/Donate)                                                                
    https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library/blob/master/examples/enroll/enroll.ino
    
-Now we can happily enroll our fingerprints in the sensor.
+Now we can happily enroll our fingerprints in the fingerprint sensor.
+
+#Moving fingerprints to database
+Fingerprint sensors will have a limited memory space to store the fingerprints ie, nearly 1000 images. So, it is better to store the fingerprints in external data bases which can also spread the applications of fingerprints.
+This can be achieved through 3 steps.
+1. Connecting Arduino board to pc/laptop.                                                                                                  This can be done using a USB cable.
+   ![arduino_pc](https://user-images.githubusercontent.com/29407642/59757328-26d2fa80-92a9-11e9-89dd-c925ce26f344.jpg)
+2. Creating a python interface to establish communication between computer and Arduino.
+3. Uploading corresponding Arduino programme in to arduino board.
+
+
+
 
 
  
